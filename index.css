@@ -1,0 +1,39 @@
+.Top-grey-box {
+    background-color: rgb(68,68,68);
+    margin: -15px;
+    width: auto;
+    height: 50px;
+    padding: 50px;
+}
+.Left-light-grey-box {
+    background-color: rgb(216,216,216);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    margin-top: 0px;
+    height: 1000px;
+    width: 150px;
+    z-index: -10;
+}
+
+.Right-light-grey-box {
+    background-color: rgb(216,216,216);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    height: 1000px;
+    width: 150px;
+    z-index: -10;
+}
+
+.Bottom {
+    background-color: rgb(34,34,34);
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 100px;
+    z-index: -20;
+}
